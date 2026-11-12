@@ -133,7 +133,8 @@ For clients that only support stdio, use a remote-to-stdio bridge such as [`mcp-
 - Each tool call runs as the signed-in user, inside that user's active Catalio organization, and can never exceed that user's permissions. If you belong to more than one organization, `list_my_organizations` and `set_active_organization` show and switch the active one.
 - Write tools change data in your Catalio organization. Most clients ask you to confirm a tool call before it runs.
 - Catalio hosts the server. This plugin only contains configuration and does not run local code.
-- You can revoke access at any time by removing the connector from your client.
+- Removing the connector from your client disconnects that client.
+- With the stdio setup, `mcp-remote` stores its sign-in tokens in `~/.mcp-auth` (or `MCP_REMOTE_CONFIG_DIR`). Removing the connector does not delete them. Delete that directory to remove the stored tokens from this device.
 - See Catalio's [Privacy Policy](https://catalio.ai/privacy) and [Terms of Service](https://catalio.ai/terms).
 
 ## Repository contents
