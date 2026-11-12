@@ -1,0 +1,34 @@
+{
+  "name": "catalio",
+  "displayName": "Catalio",
+  "version": "0.1.0",
+  "description": "Work with Catalio's living specifications: applications, requirements, initiatives, journeys, decisions, and Extract scans.",
+  "author": {
+    "name": "Catalio"
+  },
+  "publisher": "Catalio",
+  "homepage": "https://catalio.ai",
+  "repository": "https://github.com/catalioapp/catalio-mcp-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "catalio",
+    "mcp",
+    "requirements",
+    "specifications",
+    "living-specification",
+    "initiatives",
+    "modernization",
+    "gap-analysis",
+    "journeys",
+    "product-management"
+  ],
+  "category": "integrations",
+  "tags": [
+    "catalio",
+    "requirements",
+    "product",
+    "mcp"
+  ],
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "catalio": {
+      "type": "http",
+      "url": "https://catalio.ai/mcp?v=2"
+    }
+  }
+}
